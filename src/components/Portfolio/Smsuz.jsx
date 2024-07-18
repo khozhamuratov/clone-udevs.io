@@ -64,7 +64,7 @@ function Smsuz() {
 					</div>
 				</div>
 			</section>
-			<section className=''>
+			<section className='max-w-[700px]'>
 				<img data-aos='zoom-in' src='./portfolio/smsuz_app.png' />
 			</section>
 		</div>
