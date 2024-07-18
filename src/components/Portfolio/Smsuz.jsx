@@ -26,7 +26,7 @@ function Smsuz() {
 			id='smsuz'
 			className='w-[95%] mx-auto lg:flex-row flex-col py-[80px] flex items-center justify-between'
 		>
-			<section className='flex-1 flex flex-col gap-[34px]'>
+			<section className='flex flex-col gap-[34px]'>
 				<div
 					data-aos='fade-up'
 					className='flex flex-col items-start gap-[30px]'
@@ -49,7 +49,7 @@ function Smsuz() {
 					<h3 className='text-[24px] font-semibold text-[#000000CC]'>
 						Мы разрабатывали:
 					</h3>
-					<div className='grid grid-cols-3 w-[500px] gap-[30px] mb-[20px] lg:mb-0'>
+					<div className='grid grid-cols-3 max-w-[500px] gap-[30px] mb-[20px] lg:mb-0'>
 						{technoData.map((item, index) => (
 							<div
 								key={index}
@@ -64,7 +64,7 @@ function Smsuz() {
 					</div>
 				</div>
 			</section>
-			<section className='flex-1'>
+			<section className=''>
 				<img data-aos='zoom-in' src='./portfolio/smsuz_app.png' />
 			</section>
 		</div>

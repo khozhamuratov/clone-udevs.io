@@ -136,7 +136,7 @@ function Contact() {
 								rows={4}
 								margin='normal'
 							/>
-							<button className='text-[20px] w-[250px] mt-[20px] text-white px-[16px] py-[13px] bg-primary rounded-[8px] font-bold hover:scale-105 transition-all duration-100'>
+							<button className='text-[20px] max-w-[250px] mt-[20px] text-white px-[16px] py-[13px] bg-primary rounded-[8px] font-bold hover:scale-105 transition-all duration-100'>
 								Связяться
 							</button>
 						</form>

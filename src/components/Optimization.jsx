@@ -72,7 +72,7 @@ function Optimization() {
 							</p>
 							<div
 								data-aos='fade-up'
-								className='grid grid-cols-3 xl:grid-cols-3 w-[400px] xl:w-[500px] lg:gap-[15px] gap-[10px]'
+								className='grid grid-cols-3 xl:grid-cols-3 max-w-[400px] xl:w-[500px] lg:gap-[15px] gap-[10px]'
 							>
 								{technoData.map((item, index) => (
 									<div

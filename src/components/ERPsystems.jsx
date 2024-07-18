@@ -66,7 +66,7 @@ function ERPSystems() {
 							</p>
 							<div
 								data-aos='fade-up'
-								className='grid grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 w-[400px] xl:w-[500px] gap-[15px]'
+								className='grid grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 max-w-[400px] xl:w-[500px] gap-[15px]'
 							>
 								{technoData.map((item, index) => (
 									<div
